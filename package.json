@@ -1,0 +1,45 @@
+{
+  "name": "oceandock",
+  "productName": "Oceandock",
+  "version": "0.0.0",
+  "description": "🌊 Deep oceanic blue Plank dock theme",
+  "license": "MIT",
+  "repository": "klauscfhq/oceandock",
+  "author": {
+    "name": "Klaus Sinani",
+    "email": "klauscfhq@protonmail.com",
+    "url": "https://klauscfhq.github.io"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "dock.theme"
+  ],
+  "keywords": [
+    "plank",
+    "dock",
+    "dark",
+    "ocean",
+    "blue",
+    "theme",
+    "hyperocean"
+  ],
+  "bin": {
+    "oceandock": "cli.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "meow": "^5.0.0",
+    "signale": "^1.2.1",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "space": 2
+  }
+}
