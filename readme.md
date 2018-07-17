@@ -16,7 +16,6 @@ Oceandock
 
 - [Install](#install)
 - [Usage](#usage)
-- [Credits](#credits)
 - [Team](#team)
 - [License](#license)
 
