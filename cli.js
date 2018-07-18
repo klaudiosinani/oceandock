@@ -3,17 +3,33 @@
 const meow = require('meow');
 const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
-const {hyperocean, helpMessage} = require('.');
+const {oceandock, helpMessage} = require('.');
 
 const cli = meow(helpMessage, {
-  alias: {
-    i: 'install',
-    u: 'uninstall',
-    r: 'reinstall',
-    h: 'help'
+  flags: {
+    install: {
+      type: 'boolean',
+      alias: 'i'
+    },
+    uninstall: {
+      type: 'boolean',
+      alias: 'u'
+    },
+    reinstall: {
+      type: 'boolean',
+      alias: 'r'
+    },
+    help: {
+      type: 'boolean',
+      alias: 'h'
+    },
+    version: {
+      type: 'boolean',
+      alias: 'v'
+    }
   }
 });
 
 updateNotifier({pkg}).notify();
 
-hyperocean(cli.flags);
+oceandock(cli.flags);

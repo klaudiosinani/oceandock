@@ -8,15 +8,15 @@ const {Signale} = require('signale');
 const pkg = require('./package.json');
 
 const {join, resolve} = path;
-const {productName: scope, version} = pkg;
+const {version} = pkg;
 const types = {info: {label: 'version'}};
 
-const signale = new Signale({scope, types});
+const signale = new Signale({types});
 
 const themeFile = 'dock.theme';
 const plankBin = '/usr/bin/plank';
 const themeFilePath = resolve(__dirname, themeFile);
-const localThemeDir = join(os.homedir(), '.local/share/plank/themes/Hyperocean');
+const localThemeDir = join(os.homedir(), '.local/share/plank/themes/Oceandock');
 const localThemeFilePath = join(localThemeDir, themeFile);
 
 const helpMessage = `
@@ -40,11 +40,11 @@ const helpMessage = `
 
 function installTheme() {
   if (fs.existsSync(localThemeFilePath)) {
-    signale.warn('Hyperocean already installed');
+    signale.warn('Oceandock already installed');
   } else {
     fs.mkdirSync(localThemeDir);
     fs.copyFileSync(themeFilePath, localThemeFilePath);
-    signale.success('Installed Hyperocean');
+    signale.success('Installed Oceandock');
   }
 }
 
@@ -52,9 +52,9 @@ function uninstallTheme() {
   if (fs.existsSync(localThemeDir)) {
     fs.unlinkSync(localThemeFilePath);
     fs.rmdirSync(localThemeDir);
-    signale.success('Uninstalled Hyperocean');
+    signale.success('Uninstalled Oceandock');
   } else {
-    signale.warn('Hyperocean already uninstalled');
+    signale.warn('Oceandock already uninstalled');
   }
 }
 
@@ -65,7 +65,7 @@ function reinstallTheme() {
   }
   fs.mkdirSync(localThemeDir);
   fs.copyFileSync(themeFilePath, localThemeFilePath);
-  signale.success('Reinstalled Hyperocean');
+  signale.success('Reinstalled Oceandock');
 }
 
 function displayVersion() {
@@ -84,7 +84,7 @@ function exitMenu() {
 const options = [{
   type: 'list',
   name: 'installation',
-  message: 'Hyperocean Theme - Choose an action:',
+  message: 'Oceandock Theme - Choose an action:',
   choices: ['Install', 'Uninstall', 'Reinstall', 'Version', 'Help', 'Exit']
 }];
 
@@ -126,7 +126,7 @@ function askForAction() {
   });
 }
 
-const hyperocean = flags => {
+const oceandock = flags => {
   if (fs.existsSync(plankBin)) {
     if (flags.install) {
       return installTheme();
@@ -147,4 +147,4 @@ const hyperocean = flags => {
   process.exit(0);
 };
 
-module.exports = {hyperocean, helpMessage};
+module.exports = {oceandock, helpMessage};
