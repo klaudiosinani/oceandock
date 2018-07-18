@@ -2,14 +2,13 @@
 Oceandock
 </h1>
 
-<h4 align="center">
-🌊 Deep oceanic blue Plank dock theme
-</h4>
-
 <div align="center">
   <img src="media/header.png" width="100%" />
 </div>
 
+<h4 align="center">
+🌊 Deep oceanic blue Plank dock theme
+</h4>
 
 <p align="center">
   <a href="https://travis-ci.com/klauscfhq/oceandock">
