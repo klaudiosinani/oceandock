@@ -20,6 +20,8 @@ Oceandock
 
 - [Install](#install)
 - [Usage](#usage)
+- [Extra](#extra)
+- [Related](#related)
 - [Team](#team)
 - [License](#license)
 
@@ -53,6 +55,11 @@ $ oceandock --help
     $ oceandock --version
     $ oceandock --help
 ```
+
+## Extra
+
+- App icons are from the [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- Wallpaper was created with [trianglify.io](https://trianglify.io/)
 
 ## Related
 
