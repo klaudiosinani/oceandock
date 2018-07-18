@@ -55,6 +55,11 @@ $ oceandock --help
     $ oceandock --help
 ```
 
+## Related
+
+- [hyperocean](https://github.com/klauscfhq/hyperocean) - Hyper Terminal version
+- [ocean-space](https://github.com/oscarmcm/ocean-space) - Visual Studio Code version
+
 ## Team
 
 - Klaus Sinani ([@klauscfhq](https://github.com/klauscfhq))
