@@ -6,6 +6,11 @@ Oceandock
 🌊 Deep oceanic blue Plank dock theme
 </h4>
 
+<div align="center">
+  <img src="media/header.png" width="100%" />
+</div>
+
+
 <p align="center">
   <a href="https://travis-ci.com/klauscfhq/oceandock">
     <img alt="Build Status" src="https://travis-ci.com/klauscfhq/oceandock.svg?branch=master">
