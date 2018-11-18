@@ -11,8 +11,8 @@ Oceandock
 </h4>
 
 <p align="center">
-  <a href="https://travis-ci.com/klauscfhq/oceandock">
-    <img alt="Build Status" src="https://travis-ci.com/klauscfhq/oceandock.svg?branch=master">
+  <a href="https://travis-ci.com/klaussinani/oceandock">
+    <img alt="Build Status" src="https://travis-ci.com/klaussinani/oceandock.svg?branch=master">
   </a>
 </p>
 
@@ -63,12 +63,12 @@ $ oceandock --help
 
 ## Related
 
-- [hyperocean](https://github.com/klauscfhq/hyperocean) - Hyper Terminal version
+- [hyperocean](https://github.com/klaussinani/hyperocean) - Hyper Terminal version
 - [ocean-space](https://github.com/oscarmcm/ocean-space) - Visual Studio Code version
 
 ## Team
 
-- Klaus Sinani ([@klauscfhq](https://github.com/klauscfhq))
+- Klaus Sinani ([@klaussinani](https://github.com/klaussinani))
 
 ## License
 
