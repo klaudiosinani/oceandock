@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "description": "🌊 Deep oceanic blue Plank dock theme",
   "license": "MIT",
-  "repository": "klauscfhq/oceandock",
+  "repository": "klaussinani/oceandock",
   "author": {
     "name": "Klaus Sinani",
-    "email": "klauscfhq@protonmail.com",
-    "url": "https://klauscfhq.github.io"
+    "email": "klaussinani@gmail.com",
+    "url": "https://klaussinani.github.io"
   },
   "files": [
     "index.js",
