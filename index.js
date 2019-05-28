@@ -63,6 +63,7 @@ function reinstallTheme() {
     fs.unlinkSync(localThemeFilePath);
     fs.rmdirSync(localThemeDir);
   }
+
   fs.mkdirSync(localThemeDir);
   fs.copyFileSync(themeFilePath, localThemeFilePath);
   signale.success('Reinstalled Oceandock');
