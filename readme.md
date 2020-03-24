@@ -64,6 +64,7 @@ $ oceandock --help
 ## Related
 
 - [hyperocean](https://github.com/klaussinani/hyperocean) - Hyper Terminal version
+- [itermocean](https://github.com/klaussinani/itermocean) - iTerm version
 - [ocean-space](https://github.com/oscarmcm/ocean-space) - Visual Studio Code version
 
 ## Team
